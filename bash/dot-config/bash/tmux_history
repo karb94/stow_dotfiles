@@ -1,0 +1,93 @@
+nvim paper.tex bibliography.bib
+git df reset --hard
+ls
+cd ../
+ls
+cd -
+ls
+cd '~'
+ls
+cd 
+ls
+cd .config/
+ls
+cd ..
+nvim ~/.config/picom/picom.conf
+e
+nvim ~/.config/nvim/init.vim
+e
+nvim ~/.config/nvim/init.vim
+g a ~/.config/nvim/lua/plugins_config/lsp.lua 
+g df a ~/.config/nvim/lua/plugins_config/lsp.lua 
+g df push
+pushdf
+ls 
+cd .ssh/
+ls
+nvim -O2 src/* include/*
+nvim pexels_scraper2.py
+nvim paper.tex bibliography.bib
+nvim -O2 src/* include/*
+cd 
+ls
+ls phd/
+cd phd/
+ls
+git clone git@github.com:karb94/model_paper.git
+ls
+nvim paper.tex bibliography.bib
+cd graphics/
+ls
+e cross_section.tex 
+nvim ~/.config/nvim/init.vim
+e cross_section.tex 
+nvim ~/.config/nvim/init.vim
+e cross_section.tex 
+ls
+e slant_cell.tex 
+mv slant_cell.tex cross_section_3d.tex
+g a cross_section_3d.tex 
+push
+nvim paper.tex bibliography.bib
+nvim -O2 src/* include/*
+nvim paper.tex bibliography.bib
+cd graphics/
+ls
+e cross_section_3d.tex 
+push
+fg
+e cross_section_3d.tex 
+push
+ls
+cd ..
+ls
+e paper.tex 
+nvim -O2 src/* include/*
+nvim paper.tex bibliography.bib
+ls
+df
+ls ~
+cd ~
+cd -
+cd '~'
+ls
+cd ..
+rm -r ~/phd/model_paper/~/
+ls
+cd graphics/
+ls
+g a preamble.sty 
+push
+fg
+ls
+e paper.tex 
+push
+sd
+nvim -O2 src/* include/*
+nvim paper.tex bibliography.bib
+nvim -O2 src/* include/*
+nvim paper.tex bibliography.bib
+nvim -O2 src/* include/*
+nvim paper.tex bibliography.bib
+nvim -O2 src/* include/*
+nvim paper.tex bibliography.bib
