@@ -1,0 +1,512 @@
+lsh
+rm .gitignore 
+cp -r /var/cache/pacman/aurpkg/ x86_64
+df
+ls
+ls x86_64/
+cd /var/cache/pacman/aurpkg/
+ls
+pacman -b aur.db.tar -Qe
+pacman -b /var/cache/pacman/aur.db.tar -Qe
+pacman -b /var/cache/pacman -Qe
+sp -Syu
+pacman -b /var/cache/pacman/aurpkg/aur.db.tar -Qe
+pacman -b /var/cache/pacman/aurpkg -Qe
+paclist
+paclist .
+paclist aur
+pkgfile
+pi
+pacman -Qm
+man pacman
+repo-add
+ls
+ls -l ..
+ls -lh ..
+du ./
+du -h ./
+du -hs ./
+../
+du -hs ./
+du -hd2 ./
+du -hd1 ./
+du -hd1 ./ | sort -h
+du -hd1 ./ | sort -hr
+man repo-add
+nb
+nb
+e /etc/pacman.conf
+dy
+man aur
+nb
+nb
+freetube
+xset r rate 250 
+e chapter_1/introduction.tex 
+ls
+g s
+cd Thesis/
+g s
+e git ignore
+ls
+e .gitignore
+g s
+git add -A
+ls
+g s
+g p
+push
+g s
+sd
+e
+ls
+e
+e chapter_1/introduction.tex 
+g s
+cat .gitignore 
+g fls
+e .gitignore 
+g s
+e .gitignore 
+g s
+e .gitignore 
+g s
+e .gitignore 
+g s
+g a -A
+g s
+push
+cd Downloads/
+openssl enc aes-256-cbc -pbkdf2 -iter 100000000 -in mi -out m.de
+openssl enc aes-256-cbc -pbkdf2 -iter 100000000 -d -in mi -out m.de
+nmcli radio wifi off
+cat mi
+openssl enc -aes-256-cbc -pbkdf2 -iter 100000000 -d -in mi -out m.de
+cat m.de 
+ls
+rm *
+ls
+rm -rf *
+ls
+rm 'Things To Consider When Filing Bug Reports [g8Iht0vE2y4].webm' 
+ls
+cd Downloads/
+ls
+nmcli radio wifi on
+sp -Syu
+aur sync -cu
+aur repo -u
+aur sync -c ledger-live
+less /var/lib/aurbuild/x86_64/carles/build/
+ls /var/lib/aurbuild/x86_64/carles/build/
+ls /var/lib/aurbuild/x86_64/carles/build//ledger-live
+ls /var/lib/aurbuild/x86_64/carles/build/ledger-live/src/
+aur sync -c ledger-live
+aur repo -u
+aur repo -ul
+aur repo -u
+aur sync -c freetube-bin
+aur repo -u
+aur sync -c chromium-widevine
+aur repo -u
+aur sync -c google-cloud-sdk
+ls
+nb
+sd
+e
+cf
+ls
+e lua/plugins/nvim-cmp.lua 
+e
+e lua/plugins/nvim-cmp.lua 
+ls
+man aur-sync
+nb
+rm -rf aur/
+ls
+g c git@github.com:karb94/aur.git
+g clone git@github.com:karb94/aur.git
+cd aur
+ls
+e .gitignore 
+cp /var/cache/pacman/aurpkg/*zst .
+ls
+rm *
+df
+cp /var/cache/pacman/aurpkg/aurutils-3.1.2-2-any.pkg.tar.zst .
+ls
+aur repo -l
+cp /var/cache/pacman/aurpkg/xob-3.1.2-2-any.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/xob-0.3-1-x86_64.pkg.tar.zst .
+ls
+cp /var/cache/pacman/aurpkg/yt-dlp-2021.10.10-1-any.pkg.tar.zst .
+aur repo -l
+cp /var/cache/pacman/aurpkg/spotify-1\:1.1.68.632-1-x86_64.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/otf-nerd-fonts-fira-code-2.1.0-3-any.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/pyright-1.1.144-1-any.pkg.tar.zst .
+ls
+aur repo
+aur repo -l
+man aur-repo
+cp /var/cache/pacman/aurpkg/neovim-remote-2.4.0-4-any.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/ledger-live-2.33.1-1-x86_64.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/ledger-udev-1-7-any.pkg.tar.zst .
+aur repo -l
+cp /var/cache/pacman/aurpkg/lf-25-1-x86_64.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/lua-language-server-2.0.3-1-x86_64.pkg.tar.zst .
+cp /var/cache/pacman/aurpkg/freetube-bin-0.15.0-1-x86_64.pkg.tar.zst .
+ls
+e
+aur repo -l
+ls
+cp /var/cache/pacman/aurpkg/git-delta-0.8.0-2-x86_64.pkg.tar.zst .
+ls
+repo-add aur.db.tar.gz *.pkg.tar.zst
+ls
+g s
+du -sd1
+du -sd1 .
+du -sd2 .
+du -hd1 .
+du -hd1
+du -hd2
+ls -lh
+g s
+man aur-build 
+e .gitignore 
+g s
+g a -A
+g s
+push
+ls -lh
+ls -lh | sort -h
+ls -lh
+e /etc/pacman.conf
+ls -lhS
+push
+man ls
+repoctl
+pi
+ls -lhS
+man aurhosting 
+git config
+nvim ~/.gitconfig
+g b -vva
+git remote update origin https://gitlab.com/karb94/aur.git
+git remote update https://gitlab.com/karb94/aur.git origin
+git remote add gitlab https://gitlab.com/karb94/aur.git origin
+git remote add https://gitlab.com/karb94/aur.git origin gitlab
+git remote add gitlab https://gitlab.com/karb94/aur.git
+g s
+ls
+g l
+git f
+g l
+git push -u gitlab master
+git push -u gitlab main
+g checkout -b master
+git push -u gitlab master
+g l
+g push
+g push -d gitlab main
+g push gitlab -d main
+g f
+g branch -d master
+g sw main
+g branch -d master
+g l
+du -h ./
+ls -lh
+du -hd1 ./
+git count-objects -v
+git count-objects -vh
+git count-objects -vH
+man aurhosting 
+ls
+man repo-add
+man aurhosting 
+cd /etc/pacman.d/
+ls
+cat system_config.conf 
+e system_config.conf
+sp -Sy
+e system_config.conf
+sp -Sy
+sp -Syy
+sp -Syu
+ls
+g pull
+cd aur/
+ls
+g pull
+se /etc/pacman.conf
+ls
+mkdir x86_64
+git mv * x86_64/
+ls
+git mv *zst x86_64/
+ls
+git mv aur* x86_64/
+ls
+lsh
+push
+cd .ssh/
+ls
+g b -vva
+g remote list
+g remote -v
+g remote update gitlab git@gitlab.com:karb94/aur.git
+g remote update git@gitlab.com:karb94/aur.git gitlabb
+g remote update git@gitlab.com:karb94/aur.git gitlab
+g remote update
+g remote --hel
+g remote set-url gitlab git@gitlab.com:karb94/aur.git
+g remote
+g remote -v
+push
+e id_ed25519.pub 
+se /etc/pacman.conf
+sp -Sy
+sp -Syy
+man pacman.conf
+sp -Sy
+pi
+ls
+cd x86_64/
+ls
+aur repo -l -d aur
+aur repo -l -d aur.db
+aur repo -l -d aur -r ./
+ls
+man aur repo
+ls
+cd projects/
+ls
+cd aur/
+ls
+git mv x86_64/* .
+ls
+push
+ls
+rm .gitlab-ci.yml 
+push
+ls
+rm aurutils-3.1.2-2-any.pkg.tar.zst 
+rm pacman-aur.conf 
+ls
+g s
+g a -A
+g s
+push
+nvim ~/.config/dunst/dunstrc
+cf
+ls
+pacdiff
+pacdiff nvim -d
+DIFFPROG="nvim -d" pacdiff
+pacman -Ql dusnt
+pacman -Ql dunst
+pacman -Ql dunst | grep rc
+nvim ~/.config/dunst/dunstrc
+cf
+mv dunstrc dunstrc.old
+mv *new dunstrc
+ls
+killall dunst
+nvim ~/.local/scripts/dy
+e dunstrc
+se /etc/pacman.conf
+killall dunst
+e introduction.tex 
+mv abinitio.bib chapter_1/
+nvim ~/.config/nvim/init.vim
+fg
+e thesis.tex 
+e
+g s
+g a -A
+push
+sd
+nb
+ls
+cd  projects/
+man pacman.conf
+makepkg -gcC >> PKGBUILD 
+ls
+makepkg -gcC >> PKGBUILD 
+ls
+e PKGBUILD 
+ls
+e PKGBUILD 
+makepkg -gcC >> PKGBUILD 
+se /etc/pacman.conf
+sp -Syu
+se /etc/pacman.conf
+se /etc/pacman.d/aur.conf 
+sp -Sy
+sp -Syu
+sp -Syy
+sp -Syu
+se /etc/pacman.conf
+.///update_repo.sh 
+cd archiso/
+nb
+ls
+nb
+ls
+./make_iso.sh 
+vml &
+eal
+vml &
+e thesis.tex 
+g diff
+e thesis.tex 
+nb
+makepkg -gcC >> PKGBUILD 
+ls
+e pkg
+./update_repo.sh 
+e PKGBUILD 
+makepkg -gcC >> PKGBUILD 
+./update_repo.sh 
+cp /etc/aurutils/pacman-aur.conf .
+e pacman-aur.conf 
+cp /etc/pacman.conf pacman-aur.conf 
+e pacman-aur.conf
+ls
+e PKGBUILD 
+ls
+makepkg -gcC >> PKGBUILD 
+e PKGBUILD 
+./update_repo.sh 
+e PKGBUILD 
+./update_repo.sh 
+makepkg -gcC >> PKGBUILD 
+se /etc/sudoers
+./update_repo.sh 
+man git clone
+ls
+git rm --cache aur.db
+git rm --cache aur.files
+push
+ls
+file aur.db
+mv aur.db aur.db.sl
+cat aur.db.sl 
+mv aur.db.tar.gz aur.db
+g s
+g a aur.db.tar.gz
+g a aur.db
+g s
+push
+file aur.db
+rm aur.db.sl
+rm aur.files
+ls
+g mv aur.files.tar.gz aur.files
+push
+man repo-add
+./update_repo.sh 
+ls
+cd projects/system_config/
+e .gitignore 
+g s
+g a -A
+g s
+push
+cd archiso/
+./update_repo.sh 
+./make_iso.sh 
+eal
+sb
+vml
+eal
+sb
+vml
+vm
+htop
+nb
+sp -Syu
+df
+df -h
+pi
+nvim ~/.xinitrc
+push
+man stow
+nb
+ls
+cd projects/
+ls
+nmtui
+cd phd/
+cd literature/
+ls
+mkdir theses
+mv Tautschnig2018.pdf theses/
+cd theses/
+scp cx1:~/WORK/Monica_Patel.pdf .
+nmcli
+nmcli c
+nmcli c icl d
+nmcli c help
+nmcli c d icl
+ssh cx1
+fg
+nb
+nvim ~/.config/dunst/dunstrc
+nb
+cff
+nvim ~/.config/newsboat/urls
+nb
+killall dunst
+sp -Syu
+eal
+pushdf
+cd .config/
+ls
+pu
+sb
+pm -Qe
+pu
+pm -Qe
+g clone git@github.com:karb94/stow_dotfiles.git
+cd stow_dotfiles/
+g s
+rm -r polybar/
+rm -r neomutt/
+rm -r i3 coc VeraCrypt/
+pu
+g df s
+g df a -A
+g df s
+g df rm i3*
+g df rm -r i3*
+g df rm -r i3
+g df rm -r neomutt
+g df rm -r polybar
+g df s
+pushdf
+cd stow_dotfiles/
+g l
+g b
+g b -vva
+g branch -vva
+g checkout -b master
+g b -vva
+ls
+ls ..
+lss
+ls
+mkdir -p dot-config/alacritty/
+man stow
+ls
+ls
+ls dot-config/
+ls
+mkdir alacritty
+ls
+mv dot-config/ alacritty/
+rm -r alacritty/dot-config/alacritty/
+cp -r ../alacritty/ alacritty/dot-config/
+ls
+mkdir bash
